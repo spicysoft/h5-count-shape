@@ -14,7 +14,13 @@ namespace CountShape
             var startButton = false;
             Entities.WithAll<StartButton>().ForEach((Entity entity, ref PointerInteraction pointerInteraction) =>
             {
-                startButton = pointerInteraction.clicked;
+                if (pointerInteraction.clicked)
+                {
+                    //sprite2D.color.a = 0;
+                    startButton = true;
+                    
+                }
+
 
             });
 

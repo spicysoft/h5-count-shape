@@ -37,17 +37,14 @@ namespace CountShape
 
             });
 
-            //Entities.WithAll<PlaceButton>().ForEach((Entity entity, ref PointerInteraction pointerInteraction) =>
-            //{
-            //    answerButton = pointerInteraction.clicked;
 
-            //});
 
             var config = World.TinyEnvironment().GetConfigData<GameConfig>();
 
             if (answerButton)
             {
                 config.place = true;
+                config.rounds ++;
                 tinyEnv.SetConfigData(config);
             }
 

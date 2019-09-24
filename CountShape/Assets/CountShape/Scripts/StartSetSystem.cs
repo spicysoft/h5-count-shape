@@ -31,11 +31,21 @@ namespace CountShape
             {
                 text2DStyle.color.a = 1;
             });
-            Entities.ForEach((Entity entity, ref StartButton start, ref Sprite2DRenderer sprite2D ) =>
+            Entities.ForEach((Entity _entity, ref StartButton start, ref Sprite2DRenderer _sprite2D) =>
             {
-                 sprite2D.color.a = 0;
-            });
+                _sprite2D.color.a = 0;
 
+            });
+            Entities.ForEach((DynamicBuffer<Shapes> segments) =>
+            {
+                for (int i = 0; i < segments.Length; i++)
+                {
+                    var sprite2D = EntityManager.GetComponentData<Sprite2DRenderer>(segments[i].Reference);
+                    sprite2D.color.a = 1;
+                    EntityManager.SetComponentData(segments[i].Reference, sprite2D);
+                }
+
+            });
         }
 
 
