@@ -13,10 +13,14 @@ namespace CountShape
         private Random _random;
         int shapeNum;
 
+        float interval = 1;
+        float time;
+
         protected override void OnCreate()
         {
             _random = new Random();
             _random.InitState();
+            time = interval;
         }
         protected override void OnUpdate()
         {
@@ -30,12 +34,33 @@ namespace CountShape
             if (!config.place)
                 return;
 
+
+            
+
+            if(config.rounds != 0) //dont wait one second, if it is first round
+            {
+                time -= World.TinyEnvironment().frameDeltaTime;//wait  for one second
+                if (time > 0)
+
+                    return;
+            }
+
+            config.place = false;
+            config.rounds++;
+            tinyEnv.SetConfigData(config);
+
             Entities.ForEach((DynamicBuffer<Shapes> segments) =>
             {
-                config.place = false;
+
+                time = interval;
                 config.maxCount = _random.NextInt(5,6);
                 shapeNum = _random.NextInt(0, 9);
                 config.text = true;
+                if (config.rounds <= config.MaxRound)
+                {
+                    config.ThinkingPhase = true;
+                }
+
                 tinyEnv.SetConfigData(config);
                 for (int i = 0; i < segments.Length; i++)
                 {
@@ -102,7 +127,16 @@ namespace CountShape
 
 
                     }
-                    if(i < config.maxCount)
+
+                    if(config.rounds > config.MaxRound) //if it is Maxround, shapes doesnt show up
+                    {
+
+                            sprite2D.color.a = 0;
+                            EntityManager.SetComponentData(segments[i].Reference, sprite2D);
+
+                    }
+
+                    if (i < config.maxCount)
                     {
                         translation.Value = _random.NextInt3(new int3(x: -10, y: 0, z: 0), new int3(x: 10, y: 18, z: 0));
                         EntityManager.SetComponentData(segments[i].Reference, translation);

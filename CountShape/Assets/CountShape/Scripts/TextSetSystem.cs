@@ -28,6 +28,7 @@ namespace CountShape
                 return;
             config.text = false;
             tinyEnv.SetConfigData(config);
+
             correctNum = _random.NextInt(0, 4);
 
             Entities.ForEach((DynamicBuffer<Answers> segments) =>

@@ -16,7 +16,6 @@ namespace CountShape
             {
                 if (pointerInteraction.clicked)
                 {
-                    //sprite2D.color.a = 0;
                     startButton = true;
                     
                 }

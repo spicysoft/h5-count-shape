@@ -4,7 +4,6 @@ using Unity.Tiny.UIControls;
 namespace CountShape
 {
 
-
     public class PlaceButtonSystem : ComponentSystem
     {
         protected override void OnUpdate()
@@ -12,8 +11,11 @@ namespace CountShape
         {
 
             var tinyEnv = World.TinyEnvironment();
+            var config = World.TinyEnvironment().GetConfigData<GameConfig>();
             var answerButton = false;
 
+            if (config.place)
+                return;
             Entities.ForEach((DynamicBuffer<Answers> segments) =>
             {
                 for (int i = 0; i < segments.Length; i++)
@@ -25,29 +27,23 @@ namespace CountShape
                     {
                         if (placebuttont.Correct)
                         {
-                            answerButton = true;
+                            config.CorrectCounts++;
                         }
 
+                        answerButton = true;
                     }
-
-
-
                 }
-
 
             });
 
-
-
-            var config = World.TinyEnvironment().GetConfigData<GameConfig>();
+           // var config = World.TinyEnvironment().GetConfigData<GameConfig>();
 
             if (answerButton)
             {
                 config.place = true;
-                config.rounds ++;
+                config.ThinkingPhase = false;
                 tinyEnv.SetConfigData(config);
             }
-
         }
     }
 

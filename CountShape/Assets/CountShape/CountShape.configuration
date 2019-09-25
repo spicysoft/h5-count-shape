@@ -6,6 +6,7 @@
     "Entities": [{
         "Components": [{
             "$type": "CountShape.GameConfig, CountShape",
+            "MaxRound": 5,
             "maxCount": 5
         }, {
             "$type": "Unity.Entities.EntityGuid, Unity.Entities",
@@ -48,6 +49,12 @@
                 "StableTypeHash": 13715927395291695327
             }, {
                 "StableTypeHash": 15397176923792009630
+            }, {
+                "StableTypeHash": 4971843608507277554
+            }, {
+                "StableTypeHash": 14711874458266171609
+            }, {
+                "StableTypeHash": 18234634736173920504
             }]
         }, {
             "$type": "Unity.Authoring.Core.ConfigurationTag, Unity.Authoring.Core"

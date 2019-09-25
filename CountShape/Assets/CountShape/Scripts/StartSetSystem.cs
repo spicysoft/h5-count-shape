@@ -21,7 +21,7 @@ namespace CountShape
 
 
             config.start = false;
-            tinyEnv.SetConfigData(config);
+
 
             Entities.ForEach((Entity entity, ref PlaceButton place, ref Sprite2DRenderer sprite2D) =>
             {
@@ -46,7 +46,13 @@ namespace CountShape
                 }
 
             });
+
+            tinyEnv.SetConfigData(config);
         }
+
+
+
+
 
 
     }

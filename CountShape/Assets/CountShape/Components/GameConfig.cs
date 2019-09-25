@@ -9,8 +9,16 @@ namespace CountShape
         public bool place;
 
         public int rounds;
+        public int MaxRound;
 
         public int maxCount;
+
+        public bool ThinkingPhase;
+
+        //Result
+
+        public float AvReactionTime;
+        public int CorrectCounts;
     }
 
 }
