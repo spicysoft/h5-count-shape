@@ -27,10 +27,14 @@ namespace CountShape
             {
                 sprite2D.color.a = 1;
             });
-            Entities.ForEach((Entity entity, ref Count count, ref Text2DStyle text2DStyle) =>
-            {
-                text2DStyle.color.a = 1;
-            });
+            Entities.WithAll<Count>().ForEach((Entity entity, ref Text2DStyle text2DStyle) =>
+           {
+
+               text2DStyle.color.a = 1;
+
+
+
+           });
             Entities.ForEach((Entity _entity, ref StartButton start, ref Sprite2DRenderer _sprite2D) =>
             {
                 _sprite2D.color.a = 0;
@@ -44,6 +48,16 @@ namespace CountShape
                     sprite2D.color.a = 1;
                     EntityManager.SetComponentData(segments[i].Reference, sprite2D);
                 }
+
+            });
+
+
+
+            Entities.ForEach((Entity entity, ref AverageText averageText) =>
+            {
+
+                string st = "";
+                EntityManager.SetBufferFromString<TextString>(entity, st);
 
             });
 

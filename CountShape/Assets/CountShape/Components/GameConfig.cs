@@ -15,9 +15,10 @@ namespace CountShape
 
         public bool ThinkingPhase;
 
+        public bool effect;
         //Result
 
-        public float AvReactionTime;
+        public double AvReactionTime;
         public int CorrectCounts;
     }
 

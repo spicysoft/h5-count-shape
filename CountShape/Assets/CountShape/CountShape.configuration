@@ -55,6 +55,8 @@
                 "StableTypeHash": 14711874458266171609
             }, {
                 "StableTypeHash": 18234634736173920504
+            }, {
+                "StableTypeHash": 6385315482454982035
             }]
         }, {
             "$type": "Unity.Authoring.Core.ConfigurationTag, Unity.Authoring.Core"

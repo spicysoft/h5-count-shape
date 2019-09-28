@@ -40,11 +40,13 @@ namespace CountShape
             if(config.rounds != 0) //dont wait one second, if it is first round
             {
                 time -= World.TinyEnvironment().frameDeltaTime;//wait  for one second
+                config.effect = true;
+                tinyEnv.SetConfigData(config);
                 if (time > 0)
 
                     return;
             }
-
+            config.effect = false;
             config.place = false;
             config.rounds++;
             tinyEnv.SetConfigData(config);
