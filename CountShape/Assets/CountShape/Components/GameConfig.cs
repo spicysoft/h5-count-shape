@@ -7,6 +7,7 @@ namespace CountShape
         public bool start;
         public bool text;
         public bool place;
+        public bool efCorrect;
 
         public int rounds;
         public int MaxRound;

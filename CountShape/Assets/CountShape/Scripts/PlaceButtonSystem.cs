@@ -28,6 +28,11 @@ namespace CountShape
                         if (placebuttont.Correct)
                         {
                             config.CorrectCounts++;
+                            config.efCorrect = true;
+                        }
+                        else
+                        {
+                            config.efCorrect = false;
                         }
 
                         answerButton = true;

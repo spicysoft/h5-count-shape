@@ -61,6 +61,15 @@ namespace CountShape
 
             });
 
+
+            Entities.ForEach((Entity entity, ref AccuracyText accuracyText) =>
+            {
+
+
+                EntityManager.SetBufferFromString<TextString>(entity, "");
+
+            });
+
             tinyEnv.SetConfigData(config);
         }
 
