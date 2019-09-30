@@ -121,9 +121,16 @@ namespace CountShape
 
                             break;
 
-                        case 8:
+                        //case 8:
 
-                            sprite2D.sprite = shape.sprite8.sprite;
+                        //    sprite2D.sprite = shape.sprite8.sprite;
+
+                        //    break;
+
+
+                        default:
+
+                            sprite2D.sprite = shape.sprite1.sprite;
 
                             break;
 
@@ -140,6 +147,40 @@ namespace CountShape
 
                     if (i < config.maxCount)
                     {
+                        int Direction = _random.NextInt(0, 4);
+
+                        switch (Direction)
+                        {
+                            case 0:
+
+                                shape.direction = new float3(1, 0, 0);
+
+                                break;
+
+                            case 1:
+
+                                shape.direction = new float3(-1, 0, 0);
+
+                                break;
+
+                            case 2:
+
+                                shape.direction = new float3(0, 1, 0);
+
+                                break;
+
+                            case 3:
+
+                                shape.direction = new float3(0, -1, 0);
+
+                                break;
+
+
+
+
+                        }
+
+
                         translation.Value = _random.NextInt3(new int3(x: -10, y: 0, z: 0), new int3(x: 10, y: 18, z: 0));
                         EntityManager.SetComponentData(segments[i].Reference, translation);
                         EntityManager.SetComponentData(segments[i].Reference, shape);
@@ -148,6 +189,7 @@ namespace CountShape
 
                     else if (i >= config.maxCount)
                     {
+                        shape.direction = new float3(0, 0, 0);
                         translation.Value = new int3(0,25,0);
                         EntityManager.SetComponentData(segments[i].Reference, translation);
                         EntityManager.SetComponentData(segments[i].Reference, shape);

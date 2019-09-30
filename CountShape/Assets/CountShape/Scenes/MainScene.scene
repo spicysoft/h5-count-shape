@@ -8,14 +8,11 @@
         { "Guid": "8437382b6bfbef74cbd697cd93501783", "FileId": 21300000, "Type": 3},
         { "Guid": "6315e0f9783ba6b459413fa52ef21581", "FileId": 21300000, "Type": 3},
         { "Guid": "dfc6dbc9bab2b9d4492ec455625b584a", "FileId": 21300000, "Type": 3},
-        { "Guid": "951d61c28de83cb42ad99addf277c6ef", "FileId": 21300000, "Type": 3},
-        { "Guid": "f43b3d998f1f3a04caba1623aca26721", "FileId": 21300000, "Type": 3},
-        { "Guid": "597c2f9948abb6744b98003e09e3bf54", "FileId": 21300000, "Type": 3},
-        { "Guid": "5091bc73a9efa2543baca374c2fe3869", "FileId": 21300000, "Type": 3},
         { "Guid": "8f586378b4e144a9851e7b34d9b748ee", "FileId": 11400000, "Type": 2}],
     "Entities": [{
         "Components": [{
             "$type": "CountShape.Shape, CountShape",
+            "direction": {},
             "sprite0": {
                 "sprite": "162800e8dd9da20155dd35d7c8eb52b0",
                 "color": {},
@@ -42,22 +39,14 @@
                 "blending": 0
             },
             "sprite5": {
-                "sprite": "cb0357fe86d3fe0d9d081836db2289e5",
                 "color": {},
                 "blending": 0
             },
             "sprite6": {
-                "sprite": "b9307bcb15620142329486f2027165e2",
                 "color": {},
                 "blending": 0
             },
             "sprite7": {
-                "sprite": "eeda16b7e4a5682920271f86302c6f5a",
-                "color": {},
-                "blending": 0
-            },
-            "sprite8": {
-                "sprite": "be77fe38db15b31919c3ac06780d4344",
                 "color": {},
                 "blending": 0
             }
@@ -142,11 +131,22 @@
                 "StableTypeHash": 6303749187430318720
             }, {
                 "StableTypeHash": 8596495245673052530
+            }, {
+                "StableTypeHash": 3130867865398605255
+            }, {
+                "StableTypeHash": 13876691722650784004
+            }, {
+                "StableTypeHash": 15126082495356514855
+            }, {
+                "StableTypeHash": 11778259461010489323
+            }, {
+                "StableTypeHash": 3875525829728713310
             }]
         }]
     }, {
         "Components": [{
             "$type": "CountShape.Shape, CountShape",
+            "direction": {},
             "sprite0": {
                 "sprite": "162800e8dd9da20155dd35d7c8eb52b0",
                 "color": {},
@@ -173,22 +173,14 @@
                 "blending": 0
             },
             "sprite5": {
-                "sprite": "cb0357fe86d3fe0d9d081836db2289e5",
                 "color": {},
                 "blending": 0
             },
             "sprite6": {
-                "sprite": "b9307bcb15620142329486f2027165e2",
                 "color": {},
                 "blending": 0
             },
             "sprite7": {
-                "sprite": "eeda16b7e4a5682920271f86302c6f5a",
-                "color": {},
-                "blending": 0
-            },
-            "sprite8": {
-                "sprite": "be77fe38db15b31919c3ac06780d4344",
                 "color": {},
                 "blending": 0
             }
@@ -275,11 +267,22 @@
                 "StableTypeHash": 6303749187430318720
             }, {
                 "StableTypeHash": 8596495245673052530
+            }, {
+                "StableTypeHash": 3130867865398605255
+            }, {
+                "StableTypeHash": 13876691722650784004
+            }, {
+                "StableTypeHash": 15126082495356514855
+            }, {
+                "StableTypeHash": 11778259461010489323
+            }, {
+                "StableTypeHash": 3875525829728713310
             }]
         }]
     }, {
         "Components": [{
             "$type": "CountShape.Shape, CountShape",
+            "direction": {},
             "sprite0": {
                 "sprite": "162800e8dd9da20155dd35d7c8eb52b0",
                 "color": {},
@@ -306,22 +309,14 @@
                 "blending": 0
             },
             "sprite5": {
-                "sprite": "cb0357fe86d3fe0d9d081836db2289e5",
                 "color": {},
                 "blending": 0
             },
             "sprite6": {
-                "sprite": "b9307bcb15620142329486f2027165e2",
                 "color": {},
                 "blending": 0
             },
             "sprite7": {
-                "sprite": "eeda16b7e4a5682920271f86302c6f5a",
-                "color": {},
-                "blending": 0
-            },
-            "sprite8": {
-                "sprite": "be77fe38db15b31919c3ac06780d4344",
                 "color": {},
                 "blending": 0
             }
@@ -408,11 +403,22 @@
                 "StableTypeHash": 6303749187430318720
             }, {
                 "StableTypeHash": 8596495245673052530
+            }, {
+                "StableTypeHash": 3130867865398605255
+            }, {
+                "StableTypeHash": 13876691722650784004
+            }, {
+                "StableTypeHash": 15126082495356514855
+            }, {
+                "StableTypeHash": 11778259461010489323
+            }, {
+                "StableTypeHash": 3875525829728713310
             }]
         }]
     }, {
         "Components": [{
             "$type": "CountShape.Shape, CountShape",
+            "direction": {},
             "sprite0": {
                 "sprite": "162800e8dd9da20155dd35d7c8eb52b0",
                 "color": {},
@@ -439,22 +445,14 @@
                 "blending": 0
             },
             "sprite5": {
-                "sprite": "cb0357fe86d3fe0d9d081836db2289e5",
                 "color": {},
                 "blending": 0
             },
             "sprite6": {
-                "sprite": "b9307bcb15620142329486f2027165e2",
                 "color": {},
                 "blending": 0
             },
             "sprite7": {
-                "sprite": "eeda16b7e4a5682920271f86302c6f5a",
-                "color": {},
-                "blending": 0
-            },
-            "sprite8": {
-                "sprite": "be77fe38db15b31919c3ac06780d4344",
                 "color": {},
                 "blending": 0
             }
@@ -541,6 +539,16 @@
                 "StableTypeHash": 6303749187430318720
             }, {
                 "StableTypeHash": 8596495245673052530
+            }, {
+                "StableTypeHash": 3130867865398605255
+            }, {
+                "StableTypeHash": 13876691722650784004
+            }, {
+                "StableTypeHash": 15126082495356514855
+            }, {
+                "StableTypeHash": 11778259461010489323
+            }, {
+                "StableTypeHash": 3875525829728713310
             }]
         }]
     }, {
@@ -783,6 +791,7 @@
     }, {
         "Components": [{
             "$type": "CountShape.Shape, CountShape",
+            "direction": {},
             "sprite0": {
                 "sprite": "162800e8dd9da20155dd35d7c8eb52b0",
                 "color": {},
@@ -809,22 +818,14 @@
                 "blending": 0
             },
             "sprite5": {
-                "sprite": "cb0357fe86d3fe0d9d081836db2289e5",
                 "color": {},
                 "blending": 0
             },
             "sprite6": {
-                "sprite": "b9307bcb15620142329486f2027165e2",
                 "color": {},
                 "blending": 0
             },
             "sprite7": {
-                "sprite": "eeda16b7e4a5682920271f86302c6f5a",
-                "color": {},
-                "blending": 0
-            },
-            "sprite8": {
-                "sprite": "be77fe38db15b31919c3ac06780d4344",
                 "color": {},
                 "blending": 0
             }
@@ -909,6 +910,16 @@
                 "StableTypeHash": 6303749187430318720
             }, {
                 "StableTypeHash": 8596495245673052530
+            }, {
+                "StableTypeHash": 3130867865398605255
+            }, {
+                "StableTypeHash": 13876691722650784004
+            }, {
+                "StableTypeHash": 15126082495356514855
+            }, {
+                "StableTypeHash": 11778259461010489323
+            }, {
+                "StableTypeHash": 3875525829728713310
             }]
         }]
     }, {
@@ -1250,6 +1261,7 @@
     }, {
         "Components": [{
             "$type": "CountShape.Shape, CountShape",
+            "direction": {},
             "sprite0": {
                 "sprite": "162800e8dd9da20155dd35d7c8eb52b0",
                 "color": {},
@@ -1276,22 +1288,14 @@
                 "blending": 0
             },
             "sprite5": {
-                "sprite": "cb0357fe86d3fe0d9d081836db2289e5",
                 "color": {},
                 "blending": 0
             },
             "sprite6": {
-                "sprite": "b9307bcb15620142329486f2027165e2",
                 "color": {},
                 "blending": 0
             },
             "sprite7": {
-                "sprite": "eeda16b7e4a5682920271f86302c6f5a",
-                "color": {},
-                "blending": 0
-            },
-            "sprite8": {
-                "sprite": "be77fe38db15b31919c3ac06780d4344",
                 "color": {},
                 "blending": 0
             }
@@ -1376,11 +1380,22 @@
                 "StableTypeHash": 6303749187430318720
             }, {
                 "StableTypeHash": 8596495245673052530
+            }, {
+                "StableTypeHash": 3130867865398605255
+            }, {
+                "StableTypeHash": 13876691722650784004
+            }, {
+                "StableTypeHash": 15126082495356514855
+            }, {
+                "StableTypeHash": 11778259461010489323
+            }, {
+                "StableTypeHash": 3875525829728713310
             }]
         }]
     }, {
         "Components": [{
             "$type": "CountShape.Shape, CountShape",
+            "direction": {},
             "sprite0": {
                 "sprite": "162800e8dd9da20155dd35d7c8eb52b0",
                 "color": {},
@@ -1407,22 +1422,14 @@
                 "blending": 0
             },
             "sprite5": {
-                "sprite": "cb0357fe86d3fe0d9d081836db2289e5",
                 "color": {},
                 "blending": 0
             },
             "sprite6": {
-                "sprite": "b9307bcb15620142329486f2027165e2",
                 "color": {},
                 "blending": 0
             },
             "sprite7": {
-                "sprite": "eeda16b7e4a5682920271f86302c6f5a",
-                "color": {},
-                "blending": 0
-            },
-            "sprite8": {
-                "sprite": "be77fe38db15b31919c3ac06780d4344",
                 "color": {},
                 "blending": 0
             }
@@ -1507,11 +1514,22 @@
                 "StableTypeHash": 6303749187430318720
             }, {
                 "StableTypeHash": 8596495245673052530
+            }, {
+                "StableTypeHash": 3130867865398605255
+            }, {
+                "StableTypeHash": 13876691722650784004
+            }, {
+                "StableTypeHash": 15126082495356514855
+            }, {
+                "StableTypeHash": 11778259461010489323
+            }, {
+                "StableTypeHash": 3875525829728713310
             }]
         }]
     }, {
         "Components": [{
             "$type": "CountShape.Shape, CountShape",
+            "direction": {},
             "sprite0": {
                 "sprite": "162800e8dd9da20155dd35d7c8eb52b0",
                 "color": {},
@@ -1538,22 +1556,14 @@
                 "blending": 0
             },
             "sprite5": {
-                "sprite": "cb0357fe86d3fe0d9d081836db2289e5",
                 "color": {},
                 "blending": 0
             },
             "sprite6": {
-                "sprite": "b9307bcb15620142329486f2027165e2",
                 "color": {},
                 "blending": 0
             },
             "sprite7": {
-                "sprite": "eeda16b7e4a5682920271f86302c6f5a",
-                "color": {},
-                "blending": 0
-            },
-            "sprite8": {
-                "sprite": "be77fe38db15b31919c3ac06780d4344",
                 "color": {},
                 "blending": 0
             }
@@ -1638,11 +1648,22 @@
                 "StableTypeHash": 6303749187430318720
             }, {
                 "StableTypeHash": 8596495245673052530
+            }, {
+                "StableTypeHash": 3130867865398605255
+            }, {
+                "StableTypeHash": 13876691722650784004
+            }, {
+                "StableTypeHash": 15126082495356514855
+            }, {
+                "StableTypeHash": 11778259461010489323
+            }, {
+                "StableTypeHash": 3875525829728713310
             }]
         }]
     }, {
         "Components": [{
             "$type": "CountShape.Shape, CountShape",
+            "direction": {},
             "sprite0": {
                 "sprite": "162800e8dd9da20155dd35d7c8eb52b0",
                 "color": {},
@@ -1669,22 +1690,14 @@
                 "blending": 0
             },
             "sprite5": {
-                "sprite": "cb0357fe86d3fe0d9d081836db2289e5",
                 "color": {},
                 "blending": 0
             },
             "sprite6": {
-                "sprite": "b9307bcb15620142329486f2027165e2",
                 "color": {},
                 "blending": 0
             },
             "sprite7": {
-                "sprite": "eeda16b7e4a5682920271f86302c6f5a",
-                "color": {},
-                "blending": 0
-            },
-            "sprite8": {
-                "sprite": "be77fe38db15b31919c3ac06780d4344",
                 "color": {},
                 "blending": 0
             }
@@ -1771,6 +1784,16 @@
                 "StableTypeHash": 6303749187430318720
             }, {
                 "StableTypeHash": 8596495245673052530
+            }, {
+                "StableTypeHash": 3130867865398605255
+            }, {
+                "StableTypeHash": 13876691722650784004
+            }, {
+                "StableTypeHash": 15126082495356514855
+            }, {
+                "StableTypeHash": 11778259461010489323
+            }, {
+                "StableTypeHash": 3875525829728713310
             }]
         }]
     }, {
@@ -1911,6 +1934,7 @@
     }, {
         "Components": [{
             "$type": "CountShape.Shape, CountShape",
+            "direction": {},
             "sprite0": {
                 "sprite": "162800e8dd9da20155dd35d7c8eb52b0",
                 "color": {},
@@ -1937,22 +1961,14 @@
                 "blending": 0
             },
             "sprite5": {
-                "sprite": "cb0357fe86d3fe0d9d081836db2289e5",
                 "color": {},
                 "blending": 0
             },
             "sprite6": {
-                "sprite": "b9307bcb15620142329486f2027165e2",
                 "color": {},
                 "blending": 0
             },
             "sprite7": {
-                "sprite": "eeda16b7e4a5682920271f86302c6f5a",
-                "color": {},
-                "blending": 0
-            },
-            "sprite8": {
-                "sprite": "be77fe38db15b31919c3ac06780d4344",
                 "color": {},
                 "blending": 0
             }
@@ -2037,11 +2053,22 @@
                 "StableTypeHash": 6303749187430318720
             }, {
                 "StableTypeHash": 8596495245673052530
+            }, {
+                "StableTypeHash": 3130867865398605255
+            }, {
+                "StableTypeHash": 13876691722650784004
+            }, {
+                "StableTypeHash": 15126082495356514855
+            }, {
+                "StableTypeHash": 11778259461010489323
+            }, {
+                "StableTypeHash": 3875525829728713310
             }]
         }]
     }, {
         "Components": [{
             "$type": "CountShape.Shape, CountShape",
+            "direction": {},
             "sprite0": {
                 "sprite": "162800e8dd9da20155dd35d7c8eb52b0",
                 "color": {},
@@ -2068,22 +2095,14 @@
                 "blending": 0
             },
             "sprite5": {
-                "sprite": "cb0357fe86d3fe0d9d081836db2289e5",
                 "color": {},
                 "blending": 0
             },
             "sprite6": {
-                "sprite": "b9307bcb15620142329486f2027165e2",
                 "color": {},
                 "blending": 0
             },
             "sprite7": {
-                "sprite": "eeda16b7e4a5682920271f86302c6f5a",
-                "color": {},
-                "blending": 0
-            },
-            "sprite8": {
-                "sprite": "be77fe38db15b31919c3ac06780d4344",
                 "color": {},
                 "blending": 0
             }
@@ -2168,6 +2187,16 @@
                 "StableTypeHash": 6303749187430318720
             }, {
                 "StableTypeHash": 8596495245673052530
+            }, {
+                "StableTypeHash": 3130867865398605255
+            }, {
+                "StableTypeHash": 13876691722650784004
+            }, {
+                "StableTypeHash": 15126082495356514855
+            }, {
+                "StableTypeHash": 11778259461010489323
+            }, {
+                "StableTypeHash": 3875525829728713310
             }]
         }]
     }, {
@@ -2302,6 +2331,7 @@
     }, {
         "Components": [{
             "$type": "CountShape.Shape, CountShape",
+            "direction": {},
             "sprite0": {
                 "sprite": "162800e8dd9da20155dd35d7c8eb52b0",
                 "color": {},
@@ -2328,22 +2358,14 @@
                 "blending": 0
             },
             "sprite5": {
-                "sprite": "cb0357fe86d3fe0d9d081836db2289e5",
                 "color": {},
                 "blending": 0
             },
             "sprite6": {
-                "sprite": "b9307bcb15620142329486f2027165e2",
                 "color": {},
                 "blending": 0
             },
             "sprite7": {
-                "sprite": "eeda16b7e4a5682920271f86302c6f5a",
-                "color": {},
-                "blending": 0
-            },
-            "sprite8": {
-                "sprite": "be77fe38db15b31919c3ac06780d4344",
                 "color": {},
                 "blending": 0
             }
@@ -2428,11 +2450,22 @@
                 "StableTypeHash": 6303749187430318720
             }, {
                 "StableTypeHash": 8596495245673052530
+            }, {
+                "StableTypeHash": 3130867865398605255
+            }, {
+                "StableTypeHash": 13876691722650784004
+            }, {
+                "StableTypeHash": 15126082495356514855
+            }, {
+                "StableTypeHash": 11778259461010489323
+            }, {
+                "StableTypeHash": 3875525829728713310
             }]
         }]
     }, {
         "Components": [{
             "$type": "CountShape.Shape, CountShape",
+            "direction": {},
             "sprite0": {
                 "sprite": "162800e8dd9da20155dd35d7c8eb52b0",
                 "color": {},
@@ -2459,22 +2492,14 @@
                 "blending": 0
             },
             "sprite5": {
-                "sprite": "cb0357fe86d3fe0d9d081836db2289e5",
                 "color": {},
                 "blending": 0
             },
             "sprite6": {
-                "sprite": "b9307bcb15620142329486f2027165e2",
                 "color": {},
                 "blending": 0
             },
             "sprite7": {
-                "sprite": "eeda16b7e4a5682920271f86302c6f5a",
-                "color": {},
-                "blending": 0
-            },
-            "sprite8": {
-                "sprite": "be77fe38db15b31919c3ac06780d4344",
                 "color": {},
                 "blending": 0
             }
@@ -2561,6 +2586,16 @@
                 "StableTypeHash": 6303749187430318720
             }, {
                 "StableTypeHash": 8596495245673052530
+            }, {
+                "StableTypeHash": 3130867865398605255
+            }, {
+                "StableTypeHash": 13876691722650784004
+            }, {
+                "StableTypeHash": 15126082495356514855
+            }, {
+                "StableTypeHash": 11778259461010489323
+            }, {
+                "StableTypeHash": 3875525829728713310
             }]
         }]
     }, {
@@ -3054,6 +3089,7 @@
     }, {
         "Components": [{
             "$type": "CountShape.Shape, CountShape",
+            "direction": {},
             "sprite0": {
                 "sprite": "162800e8dd9da20155dd35d7c8eb52b0",
                 "color": {},
@@ -3080,22 +3116,14 @@
                 "blending": 0
             },
             "sprite5": {
-                "sprite": "cb0357fe86d3fe0d9d081836db2289e5",
                 "color": {},
                 "blending": 0
             },
             "sprite6": {
-                "sprite": "b9307bcb15620142329486f2027165e2",
                 "color": {},
                 "blending": 0
             },
             "sprite7": {
-                "sprite": "eeda16b7e4a5682920271f86302c6f5a",
-                "color": {},
-                "blending": 0
-            },
-            "sprite8": {
-                "sprite": "be77fe38db15b31919c3ac06780d4344",
                 "color": {},
                 "blending": 0
             }
@@ -3182,11 +3210,22 @@
                 "StableTypeHash": 6303749187430318720
             }, {
                 "StableTypeHash": 8596495245673052530
+            }, {
+                "StableTypeHash": 3130867865398605255
+            }, {
+                "StableTypeHash": 13876691722650784004
+            }, {
+                "StableTypeHash": 15126082495356514855
+            }, {
+                "StableTypeHash": 11778259461010489323
+            }, {
+                "StableTypeHash": 3875525829728713310
             }]
         }]
     }, {
         "Components": [{
             "$type": "CountShape.Shape, CountShape",
+            "direction": {},
             "sprite0": {
                 "sprite": "162800e8dd9da20155dd35d7c8eb52b0",
                 "color": {},
@@ -3213,22 +3252,14 @@
                 "blending": 0
             },
             "sprite5": {
-                "sprite": "cb0357fe86d3fe0d9d081836db2289e5",
                 "color": {},
                 "blending": 0
             },
             "sprite6": {
-                "sprite": "b9307bcb15620142329486f2027165e2",
                 "color": {},
                 "blending": 0
             },
             "sprite7": {
-                "sprite": "eeda16b7e4a5682920271f86302c6f5a",
-                "color": {},
-                "blending": 0
-            },
-            "sprite8": {
-                "sprite": "be77fe38db15b31919c3ac06780d4344",
                 "color": {},
                 "blending": 0
             }
@@ -3315,6 +3346,16 @@
                 "StableTypeHash": 6303749187430318720
             }, {
                 "StableTypeHash": 8596495245673052530
+            }, {
+                "StableTypeHash": 3130867865398605255
+            }, {
+                "StableTypeHash": 13876691722650784004
+            }, {
+                "StableTypeHash": 15126082495356514855
+            }, {
+                "StableTypeHash": 11778259461010489323
+            }, {
+                "StableTypeHash": 3875525829728713310
             }]
         }]
     }, {
@@ -3688,6 +3729,7 @@
     }, {
         "Components": [{
             "$type": "CountShape.Shape, CountShape",
+            "direction": {},
             "sprite0": {
                 "sprite": "162800e8dd9da20155dd35d7c8eb52b0",
                 "color": {},
@@ -3714,22 +3756,14 @@
                 "blending": 0
             },
             "sprite5": {
-                "sprite": "cb0357fe86d3fe0d9d081836db2289e5",
                 "color": {},
                 "blending": 0
             },
             "sprite6": {
-                "sprite": "b9307bcb15620142329486f2027165e2",
                 "color": {},
                 "blending": 0
             },
             "sprite7": {
-                "sprite": "eeda16b7e4a5682920271f86302c6f5a",
-                "color": {},
-                "blending": 0
-            },
-            "sprite8": {
-                "sprite": "be77fe38db15b31919c3ac06780d4344",
                 "color": {},
                 "blending": 0
             }
@@ -3816,6 +3850,16 @@
                 "StableTypeHash": 6303749187430318720
             }, {
                 "StableTypeHash": 8596495245673052530
+            }, {
+                "StableTypeHash": 3130867865398605255
+            }, {
+                "StableTypeHash": 13876691722650784004
+            }, {
+                "StableTypeHash": 15126082495356514855
+            }, {
+                "StableTypeHash": 11778259461010489323
+            }, {
+                "StableTypeHash": 3875525829728713310
             }]
         }]
     }, {
@@ -4076,6 +4120,7 @@
     }, {
         "Components": [{
             "$type": "CountShape.Shape, CountShape",
+            "direction": {},
             "sprite0": {
                 "sprite": "162800e8dd9da20155dd35d7c8eb52b0",
                 "color": {},
@@ -4102,22 +4147,14 @@
                 "blending": 0
             },
             "sprite5": {
-                "sprite": "cb0357fe86d3fe0d9d081836db2289e5",
                 "color": {},
                 "blending": 0
             },
             "sprite6": {
-                "sprite": "b9307bcb15620142329486f2027165e2",
                 "color": {},
                 "blending": 0
             },
             "sprite7": {
-                "sprite": "eeda16b7e4a5682920271f86302c6f5a",
-                "color": {},
-                "blending": 0
-            },
-            "sprite8": {
-                "sprite": "be77fe38db15b31919c3ac06780d4344",
                 "color": {},
                 "blending": 0
             }
@@ -4204,11 +4241,22 @@
                 "StableTypeHash": 6303749187430318720
             }, {
                 "StableTypeHash": 8596495245673052530
+            }, {
+                "StableTypeHash": 3130867865398605255
+            }, {
+                "StableTypeHash": 13876691722650784004
+            }, {
+                "StableTypeHash": 15126082495356514855
+            }, {
+                "StableTypeHash": 11778259461010489323
+            }, {
+                "StableTypeHash": 3875525829728713310
             }]
         }]
     }, {
         "Components": [{
             "$type": "CountShape.Shape, CountShape",
+            "direction": {},
             "sprite0": {
                 "sprite": "162800e8dd9da20155dd35d7c8eb52b0",
                 "color": {},
@@ -4235,22 +4283,14 @@
                 "blending": 0
             },
             "sprite5": {
-                "sprite": "cb0357fe86d3fe0d9d081836db2289e5",
                 "color": {},
                 "blending": 0
             },
             "sprite6": {
-                "sprite": "b9307bcb15620142329486f2027165e2",
                 "color": {},
                 "blending": 0
             },
             "sprite7": {
-                "sprite": "eeda16b7e4a5682920271f86302c6f5a",
-                "color": {},
-                "blending": 0
-            },
-            "sprite8": {
-                "sprite": "be77fe38db15b31919c3ac06780d4344",
                 "color": {},
                 "blending": 0
             }
@@ -4327,6 +4367,16 @@
                 "StableTypeHash": 6303749187430318720
             }, {
                 "StableTypeHash": 8596495245673052530
+            }, {
+                "StableTypeHash": 3130867865398605255
+            }, {
+                "StableTypeHash": 13876691722650784004
+            }, {
+                "StableTypeHash": 15126082495356514855
+            }, {
+                "StableTypeHash": 11778259461010489323
+            }, {
+                "StableTypeHash": 3875525829728713310
             }]
         }]
     }, {
@@ -4447,6 +4497,7 @@
     }, {
         "Components": [{
             "$type": "CountShape.Shape, CountShape",
+            "direction": {},
             "sprite0": {
                 "sprite": "162800e8dd9da20155dd35d7c8eb52b0",
                 "color": {},
@@ -4473,22 +4524,14 @@
                 "blending": 0
             },
             "sprite5": {
-                "sprite": "cb0357fe86d3fe0d9d081836db2289e5",
                 "color": {},
                 "blending": 0
             },
             "sprite6": {
-                "sprite": "b9307bcb15620142329486f2027165e2",
                 "color": {},
                 "blending": 0
             },
             "sprite7": {
-                "sprite": "eeda16b7e4a5682920271f86302c6f5a",
-                "color": {},
-                "blending": 0
-            },
-            "sprite8": {
-                "sprite": "be77fe38db15b31919c3ac06780d4344",
                 "color": {},
                 "blending": 0
             }
@@ -4575,6 +4618,16 @@
                 "StableTypeHash": 6303749187430318720
             }, {
                 "StableTypeHash": 8596495245673052530
+            }, {
+                "StableTypeHash": 3130867865398605255
+            }, {
+                "StableTypeHash": 13876691722650784004
+            }, {
+                "StableTypeHash": 15126082495356514855
+            }, {
+                "StableTypeHash": 11778259461010489323
+            }, {
+                "StableTypeHash": 3875525829728713310
             }]
         }]
     }, {
@@ -4693,6 +4746,7 @@
     }, {
         "Components": [{
             "$type": "CountShape.Shape, CountShape",
+            "direction": {},
             "sprite0": {
                 "sprite": "162800e8dd9da20155dd35d7c8eb52b0",
                 "color": {},
@@ -4719,22 +4773,14 @@
                 "blending": 0
             },
             "sprite5": {
-                "sprite": "cb0357fe86d3fe0d9d081836db2289e5",
                 "color": {},
                 "blending": 0
             },
             "sprite6": {
-                "sprite": "b9307bcb15620142329486f2027165e2",
                 "color": {},
                 "blending": 0
             },
             "sprite7": {
-                "sprite": "eeda16b7e4a5682920271f86302c6f5a",
-                "color": {},
-                "blending": 0
-            },
-            "sprite8": {
-                "sprite": "be77fe38db15b31919c3ac06780d4344",
                 "color": {},
                 "blending": 0
             }
@@ -4819,6 +4865,16 @@
                 "StableTypeHash": 6303749187430318720
             }, {
                 "StableTypeHash": 8596495245673052530
+            }, {
+                "StableTypeHash": 3130867865398605255
+            }, {
+                "StableTypeHash": 13876691722650784004
+            }, {
+                "StableTypeHash": 15126082495356514855
+            }, {
+                "StableTypeHash": 11778259461010489323
+            }, {
+                "StableTypeHash": 3875525829728713310
             }]
         }]
     }]
