@@ -40,6 +40,12 @@ namespace CountShape
                 _sprite2D.color.a = 0;
 
             });
+
+            Entities.ForEach((Entity _entity, ref OptionButton option, ref Sprite2DRenderer _sprite2D) =>
+            {
+                _sprite2D.color.a = 0;
+
+            });
             Entities.ForEach((DynamicBuffer<Shapes> segments) =>
             {
                 for (int i = 0; i < segments.Length; i++)

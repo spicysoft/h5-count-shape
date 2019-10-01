@@ -13,7 +13,9 @@ namespace CountShape
         public int MaxRound;
 
         public int maxCount;
+        public int difficulty;
 
+        public float speed;
         public bool ThinkingPhase;
 
         public bool effect;

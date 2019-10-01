@@ -7,7 +7,9 @@
         "Components": [{
             "$type": "CountShape.GameConfig, CountShape",
             "MaxRound": 5,
-            "maxCount": 5
+            "maxCount": 5,
+            "difficulty": 10,
+            "speed": 1
         }, {
             "$type": "Unity.Entities.EntityGuid, Unity.Entities",
             "a": 12542661817216028570,
@@ -61,6 +63,10 @@
                 "StableTypeHash": 14865174556384232561
             }, {
                 "StableTypeHash": 9154388266712242422
+            }, {
+                "StableTypeHash": 4722818189358928408
+            }, {
+                "StableTypeHash": 12118995476473414075
             }]
         }, {
             "$type": "Unity.Authoring.Core.ConfigurationTag, Unity.Authoring.Core"

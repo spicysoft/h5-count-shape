@@ -55,7 +55,7 @@ namespace CountShape
             {
 
                 time = interval;
-                config.maxCount = _random.NextInt(5,6);
+                config.maxCount = _random.NextInt(config.difficulty - 3, config.difficulty);
                 shapeNum = _random.NextInt(0, 9);
                 config.text = true;
                 if (config.rounds <= config.MaxRound)
