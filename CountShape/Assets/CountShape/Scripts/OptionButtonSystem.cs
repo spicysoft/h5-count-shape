@@ -2,6 +2,7 @@ using Unity.Entities;
 using Unity.Tiny.Core;
 using Unity.Tiny.Core2D;
 using Unity.Tiny.UIControls;
+using Unity.Tiny.Text;
 
 namespace CountShape
 {
@@ -28,8 +29,8 @@ namespace CountShape
 
             if (opitonButton)
             {
-              
 
+                config.optionMode = true;
                 Entities.ForEach((DynamicBuffer<DifficultyButtons> segments) =>
                 {
                     for (int i = 0; i < segments.Length; i++)
@@ -62,6 +63,8 @@ namespace CountShape
                 });
 
 
+
+                tinyEnv.SetConfigData(config);
 
             }
         }

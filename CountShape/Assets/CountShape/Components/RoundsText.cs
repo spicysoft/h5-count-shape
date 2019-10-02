@@ -2,11 +2,10 @@ using Unity.Entities;
 
 namespace CountShape
 {
-    public struct ARbutton : IComponentData
+    public struct RoundsText : IComponentData
     {
         public bool tes;
-
-        public int direction;
     }
 }
+
 
