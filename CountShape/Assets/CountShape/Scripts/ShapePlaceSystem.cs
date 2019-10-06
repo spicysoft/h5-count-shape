@@ -181,7 +181,7 @@ namespace CountShape
                         }
 
 
-                        translation.Value = _random.NextInt3(new int3(x: -10, y: 0, z: 0), new int3(x: 10, y: 18, z: 0));
+                        translation.Value = _random.NextInt3(new int3(x: -10, y: 0, z: 0), new int3(x: 10, y: 12, z: 0));
                         EntityManager.SetComponentData(segments[i].Reference, translation);
                         EntityManager.SetComponentData(segments[i].Reference, shape);
                         EntityManager.SetComponentData(segments[i].Reference, sprite2D);

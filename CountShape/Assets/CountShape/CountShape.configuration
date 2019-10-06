@@ -9,7 +9,7 @@
             "MaxRound": 5,
             "maxCount": 5,
             "difficulty": 10,
-            "speed": 1
+            "speed": 0.5
         }, {
             "$type": "Unity.Entities.EntityGuid, Unity.Entities",
             "a": 12542661817216028570,
@@ -67,6 +67,8 @@
                 "StableTypeHash": 4722818189358928408
             }, {
                 "StableTypeHash": 12118995476473414075
+            }, {
+                "StableTypeHash": 13926622651099157225
             }]
         }, {
             "$type": "Unity.Authoring.Core.ConfigurationTag, Unity.Authoring.Core"

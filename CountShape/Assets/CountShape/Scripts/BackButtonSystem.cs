@@ -56,6 +56,12 @@ namespace CountShape
                     _sprite2D.color.a = 0;
 
                 });
+
+                Entities.ForEach((Entity _entity, ref Title title, ref Sprite2DRenderer _sprite2D) =>
+                {
+                    _sprite2D.color.a = 1;
+
+                });
                 tinyEnv.SetConfigData(config);
             }
         }

@@ -30,17 +30,17 @@ namespace CountShape
                         if (optionDifficulty.difficulty == 0)//easy
                         {
                             config.difficulty = 8;
-                            config.speed = 0.5f;
+                            config.speed = 0.25f;
                         }
                         else if (optionDifficulty.difficulty == 1)//easy
                         {
                             config.difficulty = 12;
-                            config.speed = 1;
+                            config.speed = 0.5f;
                         }
                         else if (optionDifficulty.difficulty == 2)//easy
                         {
                             config.difficulty = 16;
-                            config.speed = 2;
+                            config.speed = 1f;
                         }
                         tinyEnv.SetConfigData(config);
                         answerButton = true;

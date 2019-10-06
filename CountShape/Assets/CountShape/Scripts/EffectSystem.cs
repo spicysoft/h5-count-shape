@@ -2,6 +2,7 @@ using Unity.Entities;
 using Unity.Tiny.Core;
 using Unity.Tiny.Core2D;
 using Unity.Tiny.Text;
+using Unity.Mathematics;
 namespace CountShape
 {
     public class EffectSystem : ComponentSystem
@@ -18,14 +19,17 @@ namespace CountShape
                 {
                     if (config.effect)
                     {
+                        
                         sprite2D.color.a = 1;
                         if (config.efCorrect)
                         {
+                            sprite2D.color = new Color(108 / 255f, 188 / 255f, 168 / 255f);
                             sprite2D.sprite = effect.Correct.sprite;
                         }
                         else
                         {
-                            EntityManager.SetBufferFromString<TextString>(_entity, config.maxCount.ToString());
+                            sprite2D.color = new Color(188 / 255f, 108 / 255f, 112 / 255f);
+                            EntityManager.SetBufferFromString<TextString>(_entity, "A." + config.maxCount.ToString());
                             sprite2D.sprite = effect.Wrong.sprite;
                         }
 

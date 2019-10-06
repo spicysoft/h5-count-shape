@@ -54,6 +54,11 @@ namespace CountShape
                 sprite2D.color.a = 1;
             });
 
+            Entities.ForEach((Entity _entity, ref Result result, ref Sprite2DRenderer _sprite2D) =>
+            {
+                _sprite2D.color.a = 1;
+
+            });
 
             Entities.ForEach((Entity entity, ref AverageText averageText) =>
             {
@@ -68,6 +73,7 @@ namespace CountShape
                 decimals = Math.Floor(decimals * 10);
 
                 int integer2 = (int)decimals;
+
                 EntityManager.SetBufferFromString<TextString>(entity, integer.ToString() + "." + integer2.ToString());
 
             });

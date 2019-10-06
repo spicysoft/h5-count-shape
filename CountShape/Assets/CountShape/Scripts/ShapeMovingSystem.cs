@@ -27,10 +27,10 @@ namespace CountShape
                     {
                         if (config.ThinkingPhase)
                         {
-                            position += World.TinyEnvironment().frameDeltaTime * shape.direction * config.speed;
+                            position += shape.direction * config.speed * World.TinyEnvironment().frameDeltaTime;
 
 
-                            if (translation.Value.y >= 18)
+                            if (translation.Value.y >= 12)
                             {
                                 shape.direction = new int3(0, -1, 0);
                             }
