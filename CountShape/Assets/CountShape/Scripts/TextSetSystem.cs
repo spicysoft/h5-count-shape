@@ -10,7 +10,7 @@ namespace CountShape
         int num ;
 
         private Random _random;
-        int shapeNum;
+        //int shapeNum;
 
         protected override void OnCreate()
         {

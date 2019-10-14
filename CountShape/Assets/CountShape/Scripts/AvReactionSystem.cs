@@ -7,7 +7,7 @@ namespace CountShape
 {   
     public class AvReactionSystem : ComponentSystem
     {
-        float amountTime = 0;// cant use float to string
+        //float amountTime = 0;// cant use float to string
 
         protected override void OnUpdate()
         {

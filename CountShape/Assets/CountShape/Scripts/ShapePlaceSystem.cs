@@ -71,55 +71,55 @@ namespace CountShape
                     var translation = EntityManager.GetComponentData<Translation>(segments[i].Reference);
                     var sprite2D = EntityManager.GetComponentData<Sprite2DRenderer>(segments[i].Reference);
 
-                    switch (shapeNum)
-                    {
-                        case 0:
+                    //switch (shapeNum)
+                    //{
+                        //case 0:
 
-                            sprite2D.sprite = shape.sprite0.sprite;
+                        //    sprite2D.sprite = shape.sprite0.sprite;
 
-                            break;
+                        //    break;
 
-                        case 1 :
+                        //case 1 :
 
-                            sprite2D.sprite = shape.sprite1.sprite;
+                        //    sprite2D.sprite = shape.sprite1.sprite;
 
-                            break;
+                        //    break;
 
-                        case 2:
+                        //case 2:
 
-                            sprite2D.sprite = shape.sprite2.sprite;
+                        //    sprite2D.sprite = shape.sprite2.sprite;
 
-                            break;
+                        //    break;
 
-                        case 3:
+                        //case 3:
 
-                            sprite2D.sprite = shape.sprite3.sprite;
+                        //    sprite2D.sprite = shape.sprite3.sprite;
 
-                            break;
+                        //    break;
 
-                        case 4:
+                        //case 4:
 
-                            sprite2D.sprite = shape.sprite4.sprite;
+                        //    sprite2D.sprite = shape.sprite4.sprite;
 
-                            break;
+                        //    break;
 
-                        case 5:
+                        //case 5:
 
-                            sprite2D.sprite = shape.sprite5.sprite;
+                        //    sprite2D.sprite = shape.sprite5.sprite;
 
-                            break;
+                        //    break;
 
-                        case 6:
+                        //case 6:
 
-                            sprite2D.sprite = shape.sprite6.sprite;
+                        //    sprite2D.sprite = shape.sprite6.sprite;
 
-                            break;
+                        //    break;
 
-                        case 7:
+                        //case 7:
 
-                            sprite2D.sprite = shape.sprite7.sprite;
+                        //    sprite2D.sprite = shape.sprite7.sprite;
 
-                            break;
+                        //    break;
 
                         //case 8:
 
@@ -128,14 +128,14 @@ namespace CountShape
                         //    break;
 
 
-                        default:
+                        //default:
 
-                            sprite2D.sprite = shape.sprite1.sprite;
+                        //    sprite2D.sprite = shape.sprite1.sprite;
 
-                            break;
+                        //    break;
 
 
-                    }
+                    //}
 
                     if(config.rounds > config.MaxRound) //if it is Maxround, shapes doesnt show up
                     {

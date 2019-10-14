@@ -7,7 +7,7 @@ namespace CountShape
 {
     public class GameOverSystem : ComponentSystem
     {
-        int MaxRound = 5;
+       // int MaxRound = 5;
         protected override void OnUpdate()
         {
             var tinyEnv = World.TinyEnvironment();
